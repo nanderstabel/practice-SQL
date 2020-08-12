@@ -42,8 +42,6 @@ WHERE countries.name = 'Poland';
 
 SELECT COUNT(*)
 FROM countries
-JOIN population_years
-	ON countries.id = population_years.country_id
 WHERE countries.name LIKE '%The%';
 
 -- What was the total population of each continent in 2010?
